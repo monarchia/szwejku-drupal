@@ -2,8 +2,7 @@
     Main styling
 */
 html, html body {
-    $assets: "/style/assets";
-    background: url($assets+'/bg.webp');
+    background: url('/style/assets/bg.webp');
 }
 // Some basic padding so that fixed elements don't cover contents
 html body {
