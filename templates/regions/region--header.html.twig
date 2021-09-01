@@ -14,18 +14,9 @@
  * @ingroup themeable
  */
 #}
-{% if content %}
+{# {% if content %}
   <div{{ attributes }}>
     {{ content }}
   </div>
-{% endif %}
-{# Inject branding #}
-{% if site_logo %}
-    <a href="{{ path('<front>') }}" rel="home">
-      <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
-    </a>
-  {% endif %}
-  {% if site_name %}
-    <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
-  {% endif %}
-  {{ site_slogan }}
+{% endif %} #}
+{{ (content is defined) ? content }}
