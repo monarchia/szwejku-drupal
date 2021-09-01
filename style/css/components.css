@@ -1,0 +1,4 @@
+/* Search box */
+.search-block-form * {
+    display: inline-flex;
+}
