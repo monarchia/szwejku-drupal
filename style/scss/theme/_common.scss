@@ -2,7 +2,8 @@
     Main styling
 */
 html, html body {
-    background: url('/style/assets/bg.webp');
+    $assets: "/themes/drupal-theme-szwejku/style/assets";
+    background: url($assets+'/bg.webp');
 }
 // Some basic padding so that fixed elements don't cover contents
 html body {
