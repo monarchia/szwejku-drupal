@@ -21,3 +21,13 @@ a:hover, a:active {
     color: var(--love);
     text-decoration: dotted;
 }
+/* Basic article style */
+article {
+    display: block;
+    background: floralwhite;
+    border-radius: 2px;
+    box-shadow: 0 0 6px #161616c0;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
