@@ -4,6 +4,7 @@ html, html body {
     font-family: Forum, serif;
     font-size: 19px;
     line-height: 1.5rem;
+    margin-top: 2.5rem;
 }
 /* Links styling */
 a {

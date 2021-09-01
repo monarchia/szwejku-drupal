@@ -1,3 +1,8 @@
+main {
+    max-width: 1110px;
+    display: flex
+}
+
 header#main-header {
     position: fixed;
     top: 0;
@@ -10,6 +15,9 @@ header#main-header {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+header#main-header > * {
+    min-width: 20%;
 }
 #block-szwejku-branding img{
     height: 145%;
