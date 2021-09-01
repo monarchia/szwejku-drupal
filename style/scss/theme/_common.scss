@@ -4,8 +4,10 @@
 html, html body {
     $assets: "/themes/drupal-theme-szwejku/style/assets";
     background: url($assets+'/bg.webp');
+    font-size: 18px;
+    line-height: 1.3rem;
 }
-// Some basic padding so that fixed elements don't cover contents
+
 html body {
     a {
         color: $tertiary;
