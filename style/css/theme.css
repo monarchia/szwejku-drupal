@@ -6,6 +6,12 @@ html, html body {
     line-height: 1.5rem;
     margin-top: 2.5rem;
 }
+h1, h2, h3, h4 {
+    font-family: Aladin, fantasy;
+}
+h5, h6 {
+    font-weight: bolder;
+}
 /* Links styling */
 a {
     color: var(--links);
