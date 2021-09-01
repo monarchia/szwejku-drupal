@@ -2,7 +2,7 @@ name: Szwejku
 type: theme
 desciription: "Drupal theme for MAW"
 core_version_requirement: ^8 || ^9
-base theme: stable
+base theme: stark
 regions:
   primary_menu: 'Items for the primary menu region.'
   header: 'Items for the header region.'
