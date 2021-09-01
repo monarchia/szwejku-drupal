@@ -1,6 +1,16 @@
+/* Global settings */
 html, html body {
     background: url(../../images/bg.webp);
     font-family: Forum, serif;
     font-size: 19px;
     line-height: 1.5rem;
+}
+/* Links styling */
+a {
+    color: var(--links);
+    text-decoration: unset;
+}
+a:hover, a:active {
+    color: var(--love);
+    text-decoration: dotted;
 }
