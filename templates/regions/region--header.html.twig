@@ -14,9 +14,4 @@
  * @ingroup themeable
  */
 #}
-{# {% if content %}
-  <div{{ attributes }}>
-    {{ content }}
-  </div>
-{% endif %} #}
 {{ (content is defined) ? content }}
