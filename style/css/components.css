@@ -1,6 +1,7 @@
 /* Search box */
+.search-block-form{
+    align-self: center;
+}
 .search-block-form * {
     display: inline-flex;
-    align-self: center;
-    
 }
