@@ -16,4 +16,4 @@ regions:
   footer: 'Items for the footer region.'
 libraries:
   - szwejku/fonts
-  - szwejku/main
+  - szwejku/style
