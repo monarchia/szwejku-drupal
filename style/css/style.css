@@ -1,0 +1,90 @@
+/*
+    Main styling
+*/
+html, html body {
+  background: url("//plik.austro-wegry.org/common/images/bg.webp"); }
+
+html body {
+  padding: 3em 0; }
+  html body a {
+    color: #b8860b; }
+    html body a:hover {
+      color: #D31141; }
+
+/*
+ *  Fonts 
+ */
+@font-face {
+  font-family: 'Aladin Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Aladin"), url("//plik.austro-wegry.org/common/fonts/Aladin-Regular.woff2") format("woff2"); }
+@font-face {
+  font-family: 'Forum Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Forum"), url("//plik.austro-wegry.org/common/fonts/Forum.woff2") format("woff2"); }
+html, html body {
+  font-family: 'Forum', Helvetica, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Aladin'; }
+
+#main-header {
+  position: fixed;
+  top: 0;
+  z-index: 1000; }
+
+.content {
+  background-color: #fff5eecc; }
+
+main.card {
+  background: floralwhite;
+  border-radius: 0.5rem;
+  padding: 1em; }
+
+nav {
+  position: unset;
+  top: unset;
+  left: unset;
+  right: unset;
+  height: unset;
+  padding: unset;
+  background: unset;
+  box-shadow: unset;
+  z-index: unset;
+  transition: unset;
+  transform-style: unset; }
+
+.label, [data-tooltip]::after, button, .button, [type="submit"], .dropimage {
+  background: #b8860b;
+  font-weight: bolder; }
+
+#main-header {
+  background: url("//plik.austro-wegry.org/common/images/texture.png"), linear-gradient(#161616 50%, #fc0 50%);
+  height: 3rem;
+  justify-content: space-evenly; }
+  #main-header * {
+    flex: unset; }
+  #main-header .brand {
+    max-width: 40%; }
+    #main-header .brand img {
+      height: 4rem; }
+  #main-header nav {
+    height: 1.5rem; }
+
+.content {
+  max-width: 1400px;
+  margin: auto; }
+
+nav ul, nav ol {
+  margin: unset;
+  list-style: none; }
+  nav ul li, nav ol li {
+    display: inline-block; }
+
+#footer-main {
+  position: fixed;
+  bottom: 0; }
+
+/*# sourceMappingURL=style.css.map */
