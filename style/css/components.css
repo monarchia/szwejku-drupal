@@ -1,4 +1,6 @@
 /* Search box */
 .search-block-form * {
     display: inline-flex;
+    align-self: center;
+    
 }
