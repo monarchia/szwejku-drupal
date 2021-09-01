@@ -1,6 +1,6 @@
 main {
     max-width: 1110px;
-    display: flex
+    margin: auto;
 }
 
 header#main-header {
@@ -21,4 +21,12 @@ header#main-header > * {
 }
 #block-szwejku-branding img{
     height: 145%;
+}
+/* Views list */
+.view-list{
+    list-style: none;
+    display: flex;
+}
+.view-list li{
+    flex: 1 1 30%;
 }
