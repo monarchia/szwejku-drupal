@@ -1,3 +1,6 @@
 html, html body {
     background: url(../../images/bg.webp);
+    font-family: Forum, serif;
+    font-size: 19px;
+    line-height: 1.5rem;
 }
