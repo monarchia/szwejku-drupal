@@ -6,15 +6,14 @@ base theme: stable
 regions:
   primary_menu: 'Items for the primary menu region.'
   header: 'Items for the header region.'
+  user_menu: 'User menu'
   breadcrumb: 'Items for the breadcrumb region.'
   highlighted: 'Items for the highlighted content region.'
   help: 'Dynamic help text, mostly for admin pages.'
-  user_menu: 'User menu'
   content: 'The main content of the current page.'
   sidebar_first: 'Items for the first sidebar.'
   sidebar_second: 'Items for the second sidebar.'
   footer: 'Items for the footer region.'
 libraries:
-  - szwejku/picnic
   - szwejku/fonts
   - szwejku/main
