@@ -26,6 +26,7 @@ header#main-header > * {
 .view-list{
     list-style: none;
     display: flex;
+    flex: row wrap;
 }
 .view-list li{
     flex: 1 1 30%;
