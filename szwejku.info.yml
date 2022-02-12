@@ -2,18 +2,9 @@ name: Szwejku
 type: theme
 desciription: "Drupal theme for MAW"
 core_version_requirement: ^8 || ^9
-base theme: stark
+base theme: stable9
+
 regions:
-  header: 'Items for the header region.'
-  primary_menu: 'Items for the primary menu region.'
-  user_menu: 'User menu'
-  breadcrumb: 'Items for the breadcrumb region.'
-  highlighted: 'Items for the highlighted content region.'
-  help: 'Dynamic help text, mostly for admin pages.'
-  content: 'The main content of the current page.'
-  sidebar_first: 'Items for the first sidebar.'
-  sidebar_second: 'Items for the second sidebar.'
-  footer: 'Items for the footer region.'
-libraries:
-  - szwejku/fonts
-  - szwejku/style
+  header: "Header"
+  content: 'Content'
+  footer: 'Footer'
