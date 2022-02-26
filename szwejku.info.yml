@@ -6,5 +6,5 @@ base theme: stable9
 
 regions:
   header: "Header"
-  content: 'Content'
+  main: 'Main'
   footer: 'Footer'

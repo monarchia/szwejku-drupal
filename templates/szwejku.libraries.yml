@@ -1,6 +1,10 @@
 # szwejku.libraries.yml
-modern-normalize:
+szwejku:
+  css:
+    theme:
+      css/style.css
 
+modern-normalize:
   css:
     theme:
       https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css: { type: external, minified: true }
