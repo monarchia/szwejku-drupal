@@ -4,6 +4,9 @@ desciription: "Drupal theme for MAW"
 core_version_requirement: ^8 || ^9
 base theme: stable9
 
+libraries:
+  - szwejku/szwejku
+
 regions:
   header: "Header"
   main: 'Main'
