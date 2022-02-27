@@ -1,8 +1,9 @@
 # szwejku.libraries.yml
 szwejku:
   css:
-    theme:
-      css/style.css
+    base: base.css
+    layout: layout.css
+    component: components.css 
 
 modern-normalize:
   css:

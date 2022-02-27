@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,IAAI,CACJ,IAAI,CAAC,IAAI,AAAC,CACN,SAAS,CAAE,IACf,CAAC",
     "sources": [
-        "../scss/main.scss"
+        "../scss/base.scss"
     ],
     "names": [],
-    "file": "main.min.css"
+    "file": "base.min.css"
 }
